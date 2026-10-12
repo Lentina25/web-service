@@ -1,0 +1,13 @@
+# Python виртуальные окружения
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Frontend модули (на случай расширения)
+node_modules/
+.dist/
+
+# Системные файлы и базы данных
+.DS_Store
+pgdata/

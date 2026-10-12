@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Подбор косметики и парфюмерии</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Подбор косметики и парфюмерии</h1>
+        
+        <div class="form-group">
+            <input type="text" id="clientName" placeholder="Ваше имя" value="Елена">
+            <select id="skinType">
+                <option value="Сухая">Сухая кожа</option>
+                <option value="Жирная">Жирная кожа</option>
+                <option value="Комбинированная">Комбинированная кожа</option>
+            </select>
+            <input type="text" id="notes" placeholder="Любимые ноты (например: Роза, Ваниль)" value="Роза">
+        </div>
+
+        <div class="actions">
+            <!-- Две обязательные кнопки по заданию -->
+            <button id="btnRecommend" class="btn primary">Получить подбор средств (Web-Service)</button>
+            <button id="btnHistory" class="btn secondary">Показать историю карточек (БД)</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Результаты выполнения запросов:</h2>
+            <div id="output" class="output-box">Нажмите на кнопку для получения данных...</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

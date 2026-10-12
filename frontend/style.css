@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f9f6f7; color: #333; margin: 0; padding: 20px; }
+.container { max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+h1 { color: #d4a373; text-align: center; }
+.form-group { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+input, select { flex: 1; padding: 12px; border: 1px solid #ddd; border-radius: 6px; min-width: 150px; }
+.actions { display: flex; gap: 15px; margin-bottom: 30px; }
+.btn { flex: 1; padding: 14px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 14px; transition: 0.2s; }
+.btn.primary { background: #d4a373; color: white; }
+.btn.primary:hover { background: #c39364; }
+.btn.secondary { background: #e3d5ca; color: #4a3e3d; }
+.btn.secondary:hover { background: #d5c2b1; }
+.output-box { background: #f0f0f0; padding: 15px; border-radius: 6px; min-height: 100px; white-space: pre-wrap; font-family: monospace; border-left: 5px solid #d4a373; }
+.card { background: white; padding: 10px; border: 1px solid #eee; margin-bottom: 8px; border-radius: 4px; }
