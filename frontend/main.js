@@ -45,7 +45,7 @@ document.getElementById('btnHistory').addEventListener('click', async () => {
             return;
         }
 
-        let html = `<h3>📋 Лог предпочтений из Базы Данных (init.sql + новые):</h3>`;
+        let html = `<h3>📋 Предпочтения:</h3>`;
         data.forEach(row => {
             html += `<div class="card">👤 <b>${row.client_name}</b> | Тип кожи: ${row.skin_type} | Ноты: ${row.preferred_notes} <small style="color:gray;">(${row.date})</small></div>`;
         });
